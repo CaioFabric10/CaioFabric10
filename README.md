@@ -41,12 +41,6 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
 </p>
 
 <br/>
-  <a href="https://www.linkedin.com/in/caio-fabricio-ab7077289/">
-    <img alt="LinkedIn" 
-          title="LinkedIn Profile" 
-          src="https://custom-icon-badges.demolab.com/badge/linkedin-profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-</p>
 
 ---
 
