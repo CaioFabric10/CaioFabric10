@@ -177,22 +177,18 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
 ### 📊 Statistics
 
 <p>
-
 <p>
   <img 
     align="left" 
     alt="GitHub Stats" 
-    height="200" 
     style="padding-right: 10px;" 
     src="https://github-readme-stats.vercel.app/api?username=CaioFabric10&show_icons=true&theme=tokyonight&locale=pt-br" 
   />
 
-<img 
+  <img 
     align="left"
-    height="200"
     src="github-metrics.svg" 
     alt="Linguagens utilizadas" 
   />
 </p>
-
 </p>
