@@ -49,7 +49,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="Java" 
     title="Java" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" 
 /> 
@@ -57,7 +57,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="Spring" 
     title="Spring"
-     width="40px" 
+     width="35px" 
      style="padding-right: 10px;" 
      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" 
 /> 
@@ -65,7 +65,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="PHP" 
     title="PHP" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" 
 /> 
@@ -73,7 +73,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="Laravel" 
     title="Laravel" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" 
 /> 
@@ -81,7 +81,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="Python" 
     title="Python" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
 /> 
@@ -89,7 +89,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="Go" 
     title="Go" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" 
 /> 
@@ -97,7 +97,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="PostgreSQL" 
     title="PostgreSQL" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" 
 /> 
@@ -105,7 +105,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="MariaDB" 
     title="MariaDB" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg" 
 />
@@ -113,7 +113,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="React" 
     title="React" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
 /> 
@@ -121,7 +121,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="TypeScript" 
     title="TypeScript" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
 /> 
@@ -129,7 +129,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="HTML" 
     title="HTML" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
 /> 
@@ -137,7 +137,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="CSS" 
     title="CSS" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
 /> 
@@ -145,7 +145,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="Bootstrap" 
     title="Bootstrap" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
 /> 
@@ -153,7 +153,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="Git" 
     title="Git" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
 /> 
@@ -161,7 +161,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="AWS" 
     title="AWS" 
-    width="40px" 
+    width="35px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" 
 /> 
