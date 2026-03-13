@@ -31,13 +31,16 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
 ---
 
 ### 🌐 Contact
-### 🌐 Contact
 <p align="left">
-  <a href="mailto:caaiofabricio07@gmail.com">
-    <img alt="Email" 
-          title="Send me an email" 
-          src="https://custom-icon-badges.demolab.com/badge/email-contact-red?style=for-the-badge&logo=mail&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/caio-fabricio-ab7077289/">
+    <img alt="LinkedIn" title="LinkedIn Profile" src="https://custom-icon-badges.demolab.com/badge/linkedin-profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+</p>
+<p>
+  📧 <b>Email:</b> caaiofabricio07@gmail.com
+</p>
+
+<br/>
   <a href="https://www.linkedin.com/in/caio-fabricio-ab7077289/">
     <img alt="LinkedIn" 
           title="LinkedIn Profile" 
@@ -182,7 +185,7 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     align="left" 
     alt="GitHub Stats" 
     style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=CaioFabric10&show_icons=true&theme=tokyonight&locale=pt-br" 
+    src="https://github-readme-stats.vercel.app/api?username=CaioFabric10&show_icons=true&theme=tokyonight&locale=pt-br&hide_rank=true" 
   />
 
   <img 
