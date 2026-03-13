@@ -31,16 +31,19 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
 ---
 
 ### 🌐 Contact
+### 🌐 Contact
 <p align="left">
-      <a href="mailto:caaiofabricio07@gmail.com">
-         <img alt="Email" title="Send me an email" src="https://custom-icon-badges.demolab.com/badge/email-contact-red?style=for-the-badge&logo=mail&logoColor=white"/></a>
-      <a href="https://www.linkedin.com/in/caio-fabricio-ab7077289/">
-         <img alt="LinkedIn" 
-         title="LinkedIn Profile" 
-         src="https://custom-icon-badges.demolab.com/badge/linkedin-profile-blue?style=for-the-badge&logo=linkedin&logoColor=white">
-   </p>
-
-
+  <a href="mailto:caaiofabricio07@gmail.com">
+    <img alt="Email" 
+          title="Send me an email" 
+          src="https://custom-icon-badges.demolab.com/badge/email-contact-red?style=for-the-badge&logo=mail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/caio-fabricio-ab7077289/">
+    <img alt="LinkedIn" 
+          title="LinkedIn Profile" 
+          src="https://custom-icon-badges.demolab.com/badge/linkedin-profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
@@ -181,11 +184,15 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
     alt="GitHub Stats" 
     height="200" 
     style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=CaioFabric10&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
+    src="https://github-readme-stats.vercel.app/api?username=CaioFabric10&show_icons=true&theme=tokyonight&locale=pt-br" 
   />
 
-  <img src="github-metrics.svg" alt="Linguagens utilizadas" />
-
+<img 
+    align="left"
+    height="200"
+    src="github-metrics.svg" 
+    alt="Linguagens utilizadas" 
+  />
 </p>
 
 </p>
