@@ -30,6 +30,37 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
 
 ---
 
+### 💼 Experiência Profissional
+
+**Desenvolvedor Backend Júnior | 2025 - 2026**
+
+- Desenvolvi e mantive APIs REST com PHP e Laravel.
+- Modelei e manipulei dados em MariaDB.
+- Implementei a migração de veículos e clientes para a plataforma principal.
+- Desenvolvi um microserviço de integração com marketplaces para automatizar anúncios.
+- Estruturei e testei endpoints com Insomnia e apoiei a arquitetura de integração entre sistemas.
+
+---
+
+### 🏠 Projeto em Destaque
+
+**Sistema Imobiliário Full Stack (TCC) | 2025**
+
+- Desenvolvi o backend com Spring Boot e PostgreSQL.
+- Implementei autenticação com JWT e armazenamento de arquivos no AWS S3.
+- Gerei relatórios em PDF com JasperReports.
+- Desenvolvi o frontend com React e TypeScript.
+- Configurei migrações com Flyway e testes com H2.
+
+---
+
+### 🎓 Formação
+
+**Análise e Desenvolvimento de Sistemas (ADS)**<br/>
+Faculdade UMFG | 2023 - 2025
+
+---
+
 ### 🌐 Contact
 <p align="left">
   <a href="https://www.linkedin.com/in/caio-fabricio-ab7077289/">
