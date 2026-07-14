@@ -215,7 +215,7 @@ Faculdade UMFG | 2023 - 2025
 
   <img 
     align="left"
-    src="language-stats.svg?v=13-repositories"
+    src="language-stats.svg?v=41442f8c74f1566e83b600582f4e912d7079dc73"
     alt="Linguagens por codigo dos repositorios"
   />
 </p>
