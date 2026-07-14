@@ -7,6 +7,7 @@ import json
 import os
 from collections import Counter
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 
@@ -28,24 +29,64 @@ def request_json(path: str):
         return json.load(response)
 
 
+def request_graphql(query: str):
+    request = Request(
+        f"{API_ROOT}/graphql",
+        data=json.dumps({"query": query}).encode(),
+        method="POST",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {TOKEN}",
+            "Content-Type": "application/json",
+            "X-GitHub-Api-Version": "2022-11-28",
+        },
+    )
+    with urlopen(request, timeout=30) as response:
+        return json.load(response)
+
+
 def format_size(value: int) -> str:
     return f"{value / 1024:.0f} KB" if value < 1024 * 1024 else f"{value / 1024 / 1024:.1f} MB"
 
 
 def main() -> None:
-    repositories = []
+    repositories: dict[str, dict] = {}
     page = 1
     while True:
         batch = request_json(f"/user/repos?affiliation=owner&per_page=100&page={page}")
         if not batch:
             break
-        repositories.extend(repo for repo in batch if not repo["fork"])
+        repositories.update(
+            {repo["full_name"]: repo for repo in batch if not repo["fork"]}
+        )
         page += 1
 
+    contributed = request_graphql("""
+      query {
+        viewer {
+          repositoriesContributedTo(
+            first: 100
+            includeUserRepositories: false
+            contributionTypes: [COMMIT]
+          ) {
+            nodes { nameWithOwner isFork }
+          }
+        }
+      }
+    """)
+    for repository in contributed["data"]["viewer"]["repositoriesContributedTo"]["nodes"]:
+        if not repository["isFork"]:
+            repositories.setdefault(repository["nameWithOwner"], {"full_name": repository["nameWithOwner"]})
+
     languages: Counter[str] = Counter()
-    for repository in repositories:
-        data = request_json(f"/repos/{repository['full_name']}/languages")
+    analyzed = 0
+    for repository in repositories.values():
+        try:
+            data = request_json(f"/repos/{repository['full_name']}/languages")
+        except HTTPError:
+            continue
         languages.update(data)
+        analyzed += 1
 
     total = sum(languages.values())
     top_languages = languages.most_common(8)
@@ -73,7 +114,7 @@ def main() -> None:
   </style>
   <rect width="100%" height="100%" rx="8" fill="none" stroke="#d0d7de"/>
   <text x="24" y="34" class="title">Linguagens por codigo</text>
-  <text x="24" y="56" class="subtitle">{len(repositories)} repositorios analisados · {format_size(total)} de codigo</text>
+  <text x="24" y="56" class="subtitle">{analyzed} repositorios proprios e contribuidos · {format_size(total)} de codigo</text>
   {''.join(rows)}
 </svg>'''
     OUTPUT.write_text(svg, encoding="utf-8")
