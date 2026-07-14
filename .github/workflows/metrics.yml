@@ -1,4 +1,5 @@
 name: Metrics
+run-name: Atualizar estatisticas do perfil
 
 on:
   push:
