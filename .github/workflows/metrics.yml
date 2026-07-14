@@ -25,4 +25,3 @@ jobs:
           plugin_languages_indepth_custom: CaioFabric10/escritorio-sistema
           plugin_languages_limit: 8
           commits_authoring: caiofabricio07@gmail.com
-          debug: yes
