@@ -17,8 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
-        env:
-          INPUT_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
