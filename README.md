@@ -215,7 +215,7 @@ Faculdade UMFG | 2023 - 2025
 
   <img 
     align="left"
-    src="github-metrics.svg" 
+    src="github-metrics.svg?v=310dcaaa" 
     alt="Linguagens utilizadas" 
   />
 </p>
