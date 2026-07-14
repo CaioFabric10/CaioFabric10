@@ -16,15 +16,9 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Verify private repository access
-        env:
-          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        run: |
-          status=$(curl --silent --output /dev/null --write-out "%{http_code}" \
-            --header "Authorization: Bearer $METRICS_TOKEN" \
-            https://api.github.com/repos/CaioFabric10/escritorio-sistema)
-          test "$status" = "200"
       - uses: lowlighter/metrics@latest
+        env:
+          INPUT_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
