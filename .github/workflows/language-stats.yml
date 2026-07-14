@@ -23,7 +23,7 @@ jobs:
         run: python scripts/generate_language_stats.py
       - name: Commit generated SVG
         run: |
-          if git diff --quiet -- language-stats.svg; then
+          if [ -z "$(git status --porcelain -- language-stats.svg)" ]; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
