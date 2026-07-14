@@ -29,10 +29,10 @@ def request_json(path: str):
         return json.load(response)
 
 
-def request_graphql(query: str):
+def request_graphql(query: str, variables: dict | None = None):
     request = Request(
         f"{API_ROOT}/graphql",
-        data=json.dumps({"query": query}).encode(),
+        data=json.dumps({"query": query, "variables": variables or {}}).encode(),
         method="POST",
         headers={
             "Accept": "application/vnd.github+json",
@@ -53,7 +53,9 @@ def main() -> None:
     repositories: dict[str, dict] = {}
     page = 1
     while True:
-        batch = request_json(f"/user/repos?affiliation=owner&per_page=100&page={page}")
+        batch = request_json(
+            f"/user/repos?affiliation=owner,collaborator,organization_member&per_page=100&page={page}"
+        )
         if not batch:
             break
         repositories.update(
@@ -61,22 +63,31 @@ def main() -> None:
         )
         page += 1
 
-    contributed = request_graphql("""
-      query {
+    cursor = None
+    while True:
+        contributed = request_graphql("""
+      query($cursor: String) {
         viewer {
           repositoriesContributedTo(
             first: 100
+            after: $cursor
             includeUserRepositories: false
             contributionTypes: [COMMIT]
           ) {
+            pageInfo { hasNextPage endCursor }
             nodes { nameWithOwner isFork }
           }
         }
       }
-    """)
-    for repository in contributed["data"]["viewer"]["repositoriesContributedTo"]["nodes"]:
-        if not repository["isFork"]:
-            repositories.setdefault(repository["nameWithOwner"], {"full_name": repository["nameWithOwner"]})
+    """, {"cursor": cursor})
+        contributed_repositories = contributed["data"]["viewer"]["repositoriesContributedTo"]
+        for repository in contributed_repositories["nodes"]:
+            if not repository["isFork"]:
+                repositories.setdefault(repository["nameWithOwner"], {"full_name": repository["nameWithOwner"]})
+        page_info = contributed_repositories["pageInfo"]
+        if not page_info["hasNextPage"]:
+            break
+        cursor = page_info["endCursor"]
 
     languages: Counter[str] = Counter()
     analyzed = 0
