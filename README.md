@@ -20,7 +20,29 @@
 
 ## Sobre
 
-Desenvolvedor backend formado em Análise e Desenvolvimento de Sistemas, com foco em APIs REST, integrações entre sistemas e automação de processos. Trabalho com Java/Spring Boot e PHP/Laravel, modelagem de dados e serviços em nuvem.
+### English
+
+Hi, I'm Caio Fabricio, a Backend Developer from Brazil.
+
+I have a degree in **Analysis and Systems Development (ADS)** and professional experience developing **REST APIs, system integrations and backend services**.
+
+I have worked with **Java (Spring Boot)** and **PHP (Laravel)** building scalable backend systems, database modeling and integrations with external platforms.
+
+My experience also includes developing **microservices, automation processes and cloud integrations using AWS S3**.
+
+I enjoy building systems that solve real problems and improve business processes through automation and integration.
+
+### Português
+
+Me chamo Caio Fabricio e sou desenvolvedor backend no Brasil.
+
+Sou formado em **Análise e Desenvolvimento de Sistemas (ADS)** e possuo experiência profissional desenvolvendo **APIs REST, integrações entre sistemas e serviços backend**.
+
+Já trabalhei com **Java (Spring Boot)** e **PHP (Laravel)** no desenvolvimento de sistemas backend, modelagem de banco de dados e integração com plataformas externas.
+
+Também tenho experiência com **microserviços, automação de processos e integrações com cloud utilizando AWS S3**.
+
+Gosto de desenvolver sistemas que resolvem problemas reais e automatizam processos.
 
 ## Experiência
 
