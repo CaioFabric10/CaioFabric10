@@ -83,7 +83,7 @@ Backend em Spring Boot e PostgreSQL, com autenticação JWT, arquivos no AWS S3,
 
 <div align="center">
   <img src="github-stats.svg" width="405" alt="Estatísticas do GitHub" />
-  <img src="language-stats.svg?v=28b1e5e5f0b2fdf6068bd36f23fa1e24c2bde9ca" width="500" alt="Linguagens por código dos repositórios" />
+  <img src="language-stats.svg?v=6ccc8afcf2297aa24a1c82bf7ff703da86871b43" width="500" alt="Linguagens por código dos repositórios" />
 </div>
 
 <p align="center"><sub>As linguagens consideram repositórios próprios, colaborativos e com contribuições de commit.</sub></p>
