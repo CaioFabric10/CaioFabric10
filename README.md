@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/caio-fabricio-ab7077289/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/caio-fabricio/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:caaiofabricio07@gmail.com"><img src="https://img.shields.io/badge/Contato-181717?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Java e Spring Boot" />
   <img src="https://img.shields.io/badge/PHP-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="PHP e Laravel" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Python-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="Python e FastAPI" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
 </p>
 
@@ -26,7 +26,7 @@ Hi, I'm Caio Fabricio, a Backend Developer from Brazil.
 
 I have a degree in **Analysis and Systems Development (ADS)** and professional experience developing **REST APIs, system integrations and backend services**.
 
-I have worked with **Java (Spring Boot)** and **PHP (Laravel)** building scalable backend systems, database modeling and integrations with external platforms.
+I have worked with **Python (FastAPI)**, **Java (Spring Boot)** and **PHP (Laravel)** building scalable backend systems, database modeling and integrations with external platforms.
 
 My experience also includes developing **microservices, automation processes and cloud integrations using AWS S3**.
 
@@ -38,7 +38,7 @@ Me chamo Caio Fabricio e sou desenvolvedor backend no Brasil.
 
 Sou formado em **Análise e Desenvolvimento de Sistemas (ADS)** e possuo experiência profissional desenvolvendo **APIs REST, integrações entre sistemas e serviços backend**.
 
-Já trabalhei com **Java (Spring Boot)** e **PHP (Laravel)** no desenvolvimento de sistemas backend, modelagem de banco de dados e integração com plataformas externas.
+Já trabalhei com **Python (FastAPI)**, **Java (Spring Boot)** e **PHP (Laravel)** no desenvolvimento de sistemas backend, modelagem de banco de dados e integração com plataformas externas.
 
 Também tenho experiência com **microserviços, automação de processos e integrações com cloud utilizando AWS S3**.
 
@@ -53,7 +53,18 @@ Gosto de desenvolver sistemas que resolvem problemas reais e automatizam process
 - Microserviço de integração com marketplaces para automação de anúncios.
 - Estruturação e testes de endpoints com Insomnia e apoio à arquitetura de integrações.
 
-## Projeto em destaque
+## Projetos em destaque
+
+**Sistema Jurídico Previdenciário · 2026**
+
+Sistema interno que desenvolvi sozinho, do zero, para um escritório de advocacia previdenciária. Organiza clientes, casos (da fase administrativa à judicial), prazos, tarefas e documentos, e foi projetado para 6 a 15 usuários na rede local do escritório.
+
+- **Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL, Alembic e pytest.
+- **Aplicativo desktop:** React, TypeScript, Tauri 2, TanStack Query, Tailwind CSS, Vitest e MSW.
+- **Segurança e dados:** autenticação JWT, permissões por domínio, trilha de auditoria e controle de concorrência por versão de registro.
+- **Implantação:** servidor Windows com Caddy (HTTPS), atualização automática do app e backup do banco antes de cada migração.
+
+<sub>Código privado por pertencer ao cliente. Posso apresentar a arquitetura e demonstrar o sistema em uma conversa.</sub>
 
 **Sistema Imobiliário Full Stack · TCC, 2025**
 
